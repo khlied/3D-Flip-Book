@@ -8,8 +8,8 @@ const paper2 = document.querySelector('#p2')
 const paper3 = document.querySelector('#p3')
 
 // Event listeners
-prevBtn.addEventListener("click", goNext);
-nextBtn.addEventListener("click", goPrevious);
+prevBtn.addEventListener("click", goPrevious);
+nextBtn.addEventListener("click", goNext);
 
 // Business Logic
 let currentState = 1;
